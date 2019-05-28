@@ -116,32 +116,30 @@ form{
     left: -340px;
 }
 
-.Main {
+.row.Main {
     background-color:#ffffff;
     border: solid #dddddd 2px;
-    width: 960px;
     margin-left:7%;
     padding: 7px;
     display: flex;
     flex-wrap: wrap;
   }
 
+.col.md.6.flex-container{
+    background:gray;
+}
+
 .Portfolio{
     color:#4aaaa5;
     font-weight: bold;
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;  
-    margin-left: 50px; 
+    margin-left: 50px;
 }
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
 
 .rounded.mx-auto.d-block{
     width: 200px;
+    height: 200px;
 }
 
 .banner{
@@ -151,6 +149,14 @@ form{
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
     text-align: center;
+    width: 200px;
+}
+
+.divider.portfolio{
+    background-color:  #dddddd;
+    height: 2px;
+    width: 100%;
+    margin-bottom:10px;
 }
 
 /*footer*/
